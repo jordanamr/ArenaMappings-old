@@ -1,0 +1,12 @@
+CLASS WQ AbstractEvent
+	FIELD aW id I
+	FIELD bVJ eventEffects Lacy;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a addEffect (LXJ;)V
+		ARG 1 xJ
+	METHOD a addEffects ([LXJ;)V
+		ARG 1 effects
+	METHOD ajz getEventEffects ()Lacy;
+	METHOD getId ()I
+	METHOD iterator ()Ljava/util/Iterator;

@@ -1,0 +1,3 @@
+CLASS Pi EffectContainer
+	METHOD iO getEffectContainerId ()J
+	METHOD iP getContainerType ()I

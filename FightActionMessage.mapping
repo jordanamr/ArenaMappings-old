@@ -1,0 +1,10 @@
+CLASS ue FightActionMessage
+	FIELD aps FIGHT_ACTION_HEADER_SIZE I
+	FIELD apt uniqueId I
+	FIELD apu triggeringActionUniqueId I
+	METHOD Ao getUniqueId ()I
+	METHOD Ap getTriggeringActionUniqueId ()I
+	METHOD M getActionId ()I
+	METHOD N getFightActionType ()LJl;
+	METHOD o decodeFightActionHeader (Ljava/nio/ByteBuffer;)V
+		ARG 1 byteBuffer

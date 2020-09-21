@@ -1,0 +1,4 @@
+CLASS apC Validable
+	METHOD c setId (J)V
+		ARG 1 id
+	METHOD getId ()J

@@ -1,0 +1,2 @@
+CLASS ZH
+	METHOD getLogger ()Lorg/apache/log4j/Logger;

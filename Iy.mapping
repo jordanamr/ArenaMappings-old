@@ -1,0 +1,3 @@
+CLASS Iy
+	FIELD a log Lorg/apache/log4j/Logger;
+	METHOD isRunning ()Z

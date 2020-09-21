@@ -1,0 +1,37 @@
+CLASS aEz Coach
+	FIELD aRT SEX_FIELD Ljava/lang/String;
+	FIELD aRV HAIR_COLOR_INDEX_FIELD Ljava/lang/String;
+	FIELD aRW SKIN_COLOR_INDEX_FIELD Ljava/lang/String;
+	FIELD aRY ACTOR_DESCRIPTOR_LIBRARY_FIELD Ljava/lang/String;
+	FIELD aRZ ACTOR_LINKAGE_FIELD Ljava/lang/String;
+	FIELD aSp COACH_SPELLS_FIELD Ljava/lang/String;
+	FIELD dAC UNSERIALIZE_OPTION_NONE I
+	FIELD dAD UNSERIALIZE_OPTION_POSITION I
+	FIELD dAE UNSERIALIZE_OPTION_EQUIPMENT I
+	FIELD dAF UNSERIALIZE_OPTION_CARD_INVENTORY I
+	FIELD dAG UNSERIALIZE_LADDERS_STRENGTHS I
+	FIELD dAO hairColorIndex B
+	FIELD dAP skinColorIndex B
+	FIELD dAR actorLinkage Ljava/lang/String;
+	FIELD dAS coachCardInventories LkY;
+	FIELD dAd LEVEL_FIELD Ljava/lang/String;
+	FIELD dAf PREVIOUS_LEVEL_FIELD Ljava/lang/String;
+	FIELD dAh RANK_FIELD Ljava/lang/String;
+	FIELD dAj PREVIOUS_RANK_FIELD Ljava/lang/String;
+	FIELD dAk RANK_ICON_URL_FIELD Ljava/lang/String;
+	FIELD dAo BET_CARDS_FIELD Ljava/lang/String;
+	FIELD dAp STATISTICS_TOTAL_FIGHTS_FIELD Ljava/lang/String;
+	FIELD dAq STATISTICS_TOTAL_FIGHTS_WON_FIELD Ljava/lang/String;
+	FIELD dAr STATISTICS_TOTAL_FIGHTS_LOST_FIELD Ljava/lang/String;
+	FIELD dAv STATISTICS_CONSECUTIVE_WINS_FIELD Ljava/lang/String;
+	FIELD dAx STATISTICS_CONSECUTIVE_LOSSES_FIELD Ljava/lang/String;
+	FIELD dAy STATISTICS_TOTAL_FIGHTS_TIME_FIELD Ljava/lang/String;
+	FIELD dAz STATISTICS_TOTAL_PLAY_TIME_FIELD Ljava/lang/String;
+	FIELD dzW HAIR_INDEX_FIELD Ljava/lang/String;
+	FIELD m_name naem Ljava/lang/String;
+	FIELD xX NAME_FIELD Ljava/lang/String;
+	FIELD zv sex B
+	METHOD U unserializePosition (Ljava/nio/ByteBuffer;)V
+		ARG 1 byteBuffer
+	METHOD b unserialize (Ljava/nio/ByteBuffer;I)Z
+		ARG 1 byteBuffer

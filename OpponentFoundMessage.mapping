@@ -1,0 +1,3 @@
+CLASS bk OpponentFoundMessage
+	FIELD fz fightId J
+	METHOD cA getFightId ()J

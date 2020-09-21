@@ -1,0 +1,3 @@
+CLASS B
+	FIELD ao instance LB;
+	METHOD V getInstance ()LB;

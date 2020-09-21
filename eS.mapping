@@ -1,0 +1,4 @@
+CLASS eS
+	METHOD cd serialize ()[B
+	METHOD d unserialize ([B)Z
+		ARG 1 data

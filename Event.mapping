@@ -1,0 +1,11 @@
+CLASS tO Event
+	FIELD aog DESCRIPTION_FIELD Ljava/lang/String;
+	FIELD aoh ICON_URL_FIELD Ljava/lang/String;
+	FIELD aoi ILLUSTRATION_URL_FIELD Ljava/lang/String;
+	FIELD aoj CARD_TYPE_FIELD Ljava/lang/String;
+	FIELD aok eventUseAutomaticDescription Z
+	FIELD ce FIELDS [Ljava/lang/String;
+	FIELD fM description Ljava/lang/String;
+	FIELD xX NAME_FIELD Ljava/lang/String;
+	METHOD getDescription ()Ljava/lang/String;
+	METHOD getName ()Ljava/lang/String;

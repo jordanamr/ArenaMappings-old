@@ -1,0 +1,3 @@
+CLASS cw AbstractEventManager
+	METHOD eO getInstance ()Lcw;
+	METHOD w getAbstractEventFromId (J)LWQ;

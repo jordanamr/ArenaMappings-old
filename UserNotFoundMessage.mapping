@@ -1,0 +1,3 @@
+CLASS vE UserNotFoundMessage
+	FIELD IC userName Ljava/lang/String;
+	METHOD getUserName ()Ljava/lang/String;

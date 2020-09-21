@@ -1,0 +1,3 @@
+CLASS aPg ReconnectionTicketMessage
+	FIELD aeQ ticket [B
+	METHOD vK getTicket ()[B

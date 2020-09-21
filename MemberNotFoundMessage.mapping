@@ -1,0 +1,3 @@
+CLASS Ez MemberNotFoundMessage
+	FIELD aIQ memberName Ljava/lang/String;
+	METHOD getMemberName ()Ljava/lang/String;

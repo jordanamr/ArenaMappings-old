@@ -1,0 +1,3 @@
+CLASS qV ChannelNotFoundMessage
+	FIELD jg channelName Ljava/lang/String;
+	METHOD eQ getChannelName ()Ljava/lang/String;

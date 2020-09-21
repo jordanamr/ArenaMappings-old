@@ -1,0 +1,5 @@
+CLASS u FighterChangeDirectionMessage
+	FIELD aj fighterId J
+	FIELD ak direction LQc;
+	METHOD K getFighterId ()J
+	METHOD L getDirection ()LQc;

@@ -1,0 +1,9 @@
+CLASS Uh InventoryContent
+	METHOD hG getQuantity ()S
+	METHOD je getUniqueId ()J
+	METHOD jf getReferenceId ()I
+	METHOD q setQuantity (S)V
+		ARG 1 quantity
+	METHOD release ()V
+	METHOD w updateQuantity (S)V
+		ARG 1 quantity

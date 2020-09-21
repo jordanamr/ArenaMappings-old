@@ -1,0 +1,4 @@
+CLASS FP AbstractClientMessageDecoder
+	FIELD a log Lorg/apache/log4j/Logger;
+	METHOD fD createMessageFromType (I)LpR;
+		ARG 1 type

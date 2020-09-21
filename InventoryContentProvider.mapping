@@ -1,0 +1,3 @@
+CLASS Ut InventoryContentProvider
+	METHOD e unserializeContent (Ljava/nio/ByteBuffer;)LakU;
+		ARG 1 byteBuffer

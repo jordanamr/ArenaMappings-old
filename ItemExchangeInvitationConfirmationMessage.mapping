@@ -1,0 +1,7 @@
+CLASS Ul ItemExchangeInvitationConfirmationMessage
+	FIELD bPI invitationResult B
+	FIELD bPJ requestedId J
+	FIELD mw exchangeId J
+	METHOD agH getRequestedId ()J
+	METHOD agI getInvitationResult ()B
+	METHOD fX getExchangeId ()J

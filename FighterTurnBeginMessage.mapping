@@ -1,0 +1,3 @@
+CLASS Kw FighterTurnBeginMessage
+	FIELD aj fighterId J
+	METHOD K getFighterId ()J

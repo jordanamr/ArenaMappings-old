@@ -1,0 +1,26 @@
+CLASS pR Message
+	FIELD a log Lorg/apache/log4j/Logger;
+	FIELD acG previous LWv;
+	FIELD acH next LWv;
+	FIELD acJ handlerValidator Laba;
+	FIELD uG pool LaCl;
+	METHOD a checkMessageSize (IIZ)Z
+		ARG 1 recvSize
+		ARG 2 size
+		ARG 3 exact
+	METHOD a setPool (LaCl;)V
+		ARG 1 pool
+	METHOD a setHandler (LaLx;)V
+		ARG 1 messageHandler
+	METHOD a decode ([B)Z
+		ARG 1 data
+	METHOD encode ()[B
+	METHOD execute ()V
+	METHOD f setId (I)V
+		ARG 1 id
+	METHOD getId ()I
+	METHOD m readString (Ljava/nio/ByteBuffer;)[B
+		ARG 1 byteBuffer
+	METHOD release ()V
+	METHOD uy getHandler ()LaLx;
+	METHOD uz isHandlerValid ()Z

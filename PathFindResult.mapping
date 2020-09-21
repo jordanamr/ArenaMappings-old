@@ -1,0 +1,8 @@
+CLASS arH PathFindResult
+	FIELD a log Lorg/apache/log4j/Logger;
+	FIELD cQk STEP_X I
+	FIELD cQl STEP_Y I
+	FIELD cQm STEP_Z I
+	FIELD cQn pathFound Z
+	FIELD cQo datas [[I
+	METHOD b setStep (IIIS)V

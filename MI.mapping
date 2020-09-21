@@ -1,0 +1,5 @@
+CLASS MI
+	FIELD a log Lorg/apache/log4j/Logger;
+	METHOD a add (LUh;)Z
+	METHOD ho destroyAll ()I
+	METHOD size ()I

@@ -1,0 +1,3 @@
+CLASS aLx MessageHandler
+	METHOD a onMessage (LpR;)Z
+		ARG 1 message

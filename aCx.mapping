@@ -1,0 +1,3 @@
+CLASS aCx
+	METHOD activateInterface ()V
+	METHOD deactivateInterface ()V

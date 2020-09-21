@@ -1,0 +1,3 @@
+CLASS oQ InvalidClientVersionMessage
+	FIELD aaT neededVersion [B
+	METHOD tR getNeededVersion ()[B

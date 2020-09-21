@@ -1,0 +1,7 @@
+CLASS UO ItemExchangeInvitationMessage
+	FIELD bRF requesterId J
+	FIELD bRG requesterName Ljava/lang/String;
+	FIELD mw exchangeId J
+	METHOD ahO getRequesterId ()J
+	METHOD ahP getRequesterName ()Ljava/lang/String;
+	METHOD fX getExchangeId ()J

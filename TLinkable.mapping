@@ -1,0 +1,7 @@
+CLASS Wv TLinkable
+	METHOD a setNext (LWv;)V
+		ARG 1 tLinkable
+	METHOD b setPrevious (LWv;)V
+		ARG 1 tLinkable
+	METHOD uw getNext ()LWv;
+	METHOD ux getPrevious ()LWv;

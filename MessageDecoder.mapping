@@ -1,0 +1,3 @@
+CLASS eG MessageDecoder
+	METHOD g decode (Ljava/nio/ByteBuffer;)LpR;
+		ARG 1 byteBuffer

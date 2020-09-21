@@ -1,0 +1,3 @@
+CLASS aiO TeamMateSetReadyForPlacementMessage
+	FIELD sB coachId J
+	METHOD mb getCoachId ()J

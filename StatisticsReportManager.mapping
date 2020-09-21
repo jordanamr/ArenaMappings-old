@@ -1,0 +1,3 @@
+CLASS arq StatisticsReportManager
+	METHOD aEv getInstance ()Larq;
+	METHOD aa createReport ([B)Lrs;

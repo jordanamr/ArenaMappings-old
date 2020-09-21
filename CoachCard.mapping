@@ -1,0 +1,2 @@
+CLASS wy CoachCard
+	FIELD ce FIELDS [Ljava/lang/String;

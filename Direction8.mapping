@@ -1,0 +1,10 @@
+CLASS Qc Direction8
+	FIELD bEW values [LQc;
+	FIELD bEX vector [I
+	FIELD m_index index I
+	METHOD <init> (Ljava/lang/String;II[I)V
+		ARG 3 index
+		ARG 4 vector
+	METHOD hf getDirectionFromindex (I)LQc;
+		ARG 0 index
+	METHOD values ()[LQc;

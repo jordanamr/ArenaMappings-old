@@ -1,0 +1,2 @@
+CLASS aey StringUtils
+	METHOD V fromUTF8 ([B)Ljava/lang/String;

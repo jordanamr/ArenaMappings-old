@@ -1,0 +1,7 @@
+CLASS aIS PrivateContentMessage
+	FIELD bY messageContent Ljava/lang/String;
+	FIELD jA memberIDTalking J
+	FIELD jz memberTalking Ljava/lang/String;
+	METHOD eZ getMemberIDTalking ()J
+	METHOD fa getMemberTalking ()Ljava/lang/String;
+	METHOD fb getMessageContent ()Ljava/lang/String;

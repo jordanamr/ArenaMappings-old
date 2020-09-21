@@ -1,0 +1,3 @@
+CLASS aDw FriendRemovedMessage
+	FIELD abZ friendName Ljava/lang/String;
+	METHOD ui getFriendName ()Ljava/lang/String;

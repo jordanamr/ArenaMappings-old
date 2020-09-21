@@ -1,0 +1,31 @@
+CLASS oc DataSource
+	FIELD QA dbName Ljava/lang/String;
+	FIELD QB hostname Ljava/lang/String;
+	FIELD QC port I
+	FIELD QD username Ljava/lang/String;
+	FIELD QE password Ljava/lang/String;
+	FIELD Qv dataSource Ljavax/sql/DataSource;
+	FIELD Qy tablePrefix Ljava/lang/String;
+	FIELD Qz tableCount I
+	FIELD a log Lorg/apache/log4j/Logger;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V
+		ARG 1 dbName
+		ARG 2 hostname
+		ARG 3 username
+		ARG 4 password
+		ARG 5 tableCount
+		ARG 6 port
+	METHOD a create (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Ljavax/sql/DataSource;
+		ARG 1 dbName
+		ARG 2 hostname
+		ARG 3 username
+		ARG 4 password
+		ARG 5 port
+	METHOD bp setTablePrefix (Ljava/lang/String;)V
+		ARG 1 tablePrefix
+	METHOD initialize ()V
+	METHOD sV getDataSource ()Ljavax/sql/DataSource;
+	METHOD tb getDbName ()Ljava/lang/String;
+	METHOD tc getHostname ()Ljava/lang/String;
+	METHOD td getUsername ()Ljava/lang/String;
+	METHOD te getPassword ()Ljava/lang/String;

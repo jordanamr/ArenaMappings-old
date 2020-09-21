@@ -1,0 +1,5 @@
+CLASS Jg NewTableTurnBeginMessage
+	FIELD Eb event LtO;
+	FIELD bjt numTurns B
+	METHOD Vw getNumTurns ()B
+	METHOD oQ getEvent ()LtO;

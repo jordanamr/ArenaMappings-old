@@ -1,0 +1,7 @@
+CLASS kS
+	FIELD BUILD_VERSION Ljava/lang/String;
+	FIELD FJ MAJOR B
+	FIELD FK INSTANCE LkS;
+	FIELD FN DATE Ljava/util/Date;
+	FIELD MINOR S
+	METHOD display ()V

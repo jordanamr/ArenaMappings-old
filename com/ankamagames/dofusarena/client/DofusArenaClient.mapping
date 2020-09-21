@@ -1,0 +1,4 @@
+CLASS com/ankamagames/dofusarena/client/DofusArenaClient
+	FIELD a log Lorg/apache/log4j/Logger;
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args

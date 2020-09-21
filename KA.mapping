@@ -1,0 +1,2 @@
+CLASS KA
+	METHOD isRunning ()Z

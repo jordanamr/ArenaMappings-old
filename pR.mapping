@@ -1,0 +1,2 @@
+CLASS pR
+	METHOD getId ()I

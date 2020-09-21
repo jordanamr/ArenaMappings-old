@@ -1,0 +1,2 @@
+CLASS axx
+	METHOD sZ getTablePrefix ()Ljava/lang/String;

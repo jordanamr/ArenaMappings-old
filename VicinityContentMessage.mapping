@@ -1,0 +1,7 @@
+CLASS cK VicinityContentMessage
+	FIELD bY messageContent Ljava/lang/String;
+	FIELD jA memberIDTalking J
+	FIELD jz memberTalking Ljava/lang/String;
+	METHOD eZ MemberIDTalking ()J
+	METHOD fa MemberTalking ()Ljava/lang/String;
+	METHOD fb MessageContent ()Ljava/lang/String;

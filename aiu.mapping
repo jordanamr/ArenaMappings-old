@@ -1,0 +1,2 @@
+CLASS aiu
+	FIELD a log Lorg/apache/log4j/Logger;

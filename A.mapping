@@ -1,0 +1,4 @@
+CLASS A
+	FIELD a log Lorg/apache/log4j/Logger;
+	FIELD an instance LA;
+	METHOD U getInstance ()LA;

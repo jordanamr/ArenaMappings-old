@@ -1,0 +1,3 @@
+CLASS aoH CoachInformationsMessage
+	FIELD aMT localCoach LsJ;
+	METHOD Ln getLocalCoach ()LsJ;

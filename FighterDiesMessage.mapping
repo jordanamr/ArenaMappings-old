@@ -1,0 +1,3 @@
+CLASS cD FighterDiesMessage
+	FIELD aj fighterId J
+	METHOD K getFighterId ()J

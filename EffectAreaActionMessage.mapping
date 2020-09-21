@@ -1,0 +1,3 @@
+CLASS jD EffectAreaActionMessage
+	FIELD Bg apply Z
+	METHOD mQ isApply ()Z

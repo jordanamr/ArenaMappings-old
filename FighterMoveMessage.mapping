@@ -1,0 +1,6 @@
+CLASS yR FighterMoveMessage
+	FIELD aDU CELL_BYTE_SIZE I
+	FIELD aDV pathFindResult LarH;
+	FIELD aj fighterId J
+	METHOD FJ getPathResult ()LarH;
+	METHOD K getFighterId ()J

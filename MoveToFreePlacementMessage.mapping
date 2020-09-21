@@ -1,0 +1,9 @@
+CLASS lK MoveToFreePlacementMessage
+	FIELD aj fighterId J
+	FIELD nE worldX I
+	FIELD nF worldY I
+	FIELD nG altitude S
+	METHOD K getFighterId ()J
+	METHOD gO getWorldX ()I
+	METHOD gP getWorldY ()I
+	METHOD gQ getAltitude ()S

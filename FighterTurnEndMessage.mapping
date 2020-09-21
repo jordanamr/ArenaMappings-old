@@ -1,0 +1,2 @@
+CLASS TJ FighterTurnEndMessage
+	FIELD aj fighterId J

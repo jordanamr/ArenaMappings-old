@@ -1,0 +1,2 @@
+CLASS ed
+	METHOD getString (Ljava/lang/String;)Ljava/lang/String;

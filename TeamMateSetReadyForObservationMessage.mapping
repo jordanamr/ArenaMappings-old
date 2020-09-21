@@ -1,0 +1,3 @@
+CLASS DW TeamMateSetReadyForObservationMessage
+	FIELD sB coachId J
+	METHOD mb getCoachId ()J

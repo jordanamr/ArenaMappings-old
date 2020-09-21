@@ -1,0 +1,3 @@
+CLASS aPa OpponentSearchErrorMessage
+	FIELD aV errorCode B
+	METHOD an getErrorCode ()B

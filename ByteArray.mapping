@@ -1,0 +1,27 @@
+CLASS qG ByteArray
+	FIELD afe DEFAULT_GROWTH I
+	FIELD aff baseArray [B
+	FIELD afg capacity I
+	FIELD afh growth I
+	FIELD m_size size I
+	METHOD <init> (I)V
+		ARG 1 capacity
+	METHOD <init> (II)V
+		ARG 1 capacity
+		ARG 2 growth
+	METHOD <init> (LqG;)V
+		ARG 1 byteArray
+	METHOD S putShort (S)V
+		ARG 1 data
+	METHOD c putChar (C)V
+		ARG 1 character
+	METHOD clear ()V
+	METHOD contains (B)Z
+		ARG 1 data
+	METHOD ensureCapacity (I)V
+	METHOD get (I)B
+		ARG 1 index
+	METHOD putBoolean (Z)V
+	METHOD putInt (I)V
+		ARG 1 integer
+	METHOD size ()I

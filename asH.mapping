@@ -1,0 +1,7 @@
+CLASS asH
+	FIELD boK card Lwy;
+	FIELD mw exchangeId J
+	FIELD mx userIndex B
+	METHOD apc getCard ()Lwy;
+	METHOD fX getExchangeId ()J
+	METHOD fY getUserIndex ()B

@@ -1,0 +1,3 @@
+CLASS Pl PlayerStatisticsReportMessage
+	FIELD aqJ playerStatistics Lcom/ankamagames/dofusarena/common/game/statistics/PlayerStatisticsReport;
+	METHOD AK getPlayerStatisics ()Lcom/ankamagames/dofusarena/common/game/statistics/PlayerStatisticsReport;

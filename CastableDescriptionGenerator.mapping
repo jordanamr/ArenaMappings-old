@@ -1,0 +1,2 @@
+CLASS asf CastableDescriptionGenerator
+	METHOD a generateDescription (IZLjava/lang/Iterable;Ljava/lang/Iterable;I)Ljava/lang/String;

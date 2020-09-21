@@ -1,0 +1,10 @@
+CLASS adm Validator
+	FIELD a log Lorg/apache/log4j/Logger;
+	FIELD cmq item LapC;
+	FIELD cmr itemId J
+	METHOD a setup (LapC;)V
+		ARG 1 validable
+	METHOD asi isItemValid ()Z
+	METHOD asj getItem ()LapC;
+	METHOD ask getItemId ()J
+	METHOD reset ()V

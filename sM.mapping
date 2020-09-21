@@ -1,0 +1,40 @@
+CLASS sM
+	FIELD a log Lorg/apache/log4j/Logger;
+	FIELD alT instance LsM;
+	FIELD alW dataSources Ljava/util/ArrayList;
+	METHOD a (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;)Loc;
+		ARG 1 dbName
+		ARG 2 hostname
+		ARG 3 port
+		ARG 4 username
+		ARG 5 password
+		ARG 6 tableCount
+		ARG 7 tablePrefix
+	METHOD a (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/util/HashMap;)Loc;
+		ARG 1 dbName
+		ARG 2 hostname
+		ARG 3 port
+		ARG 4 username
+		ARG 5 password
+		ARG 6 tableCount
+		ARG 7 tablePrefix
+	METHOD b (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;)Loc;
+		ARG 1 dbName
+		ARG 2 hostname
+		ARG 3 port
+		ARG 4 username
+		ARG 5 password
+		ARG 6 tableCount
+		ARG 7 tablePrefix
+	METHOD b (Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/util/HashMap;)Loc;
+		ARG 1 dbName
+		ARG 2 hostname
+		ARG 3 port
+		ARG 4 username
+		ARG 5 password
+		ARG 6 tableCount
+		ARG 7 tablePrefix
+	METHOD cn getDataSource (Ljava/lang/String;)Loc;
+		ARG 1 dbName
+	METHOD start ()V
+	METHOD yS getInstance ()LsM;

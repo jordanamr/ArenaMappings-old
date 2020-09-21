@@ -1,0 +1,3 @@
+CLASS Az CoachCreationResultMessage
+	FIELD aV errorCode B
+	METHOD an getErrorCode ()B

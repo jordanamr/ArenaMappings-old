@@ -1,0 +1,6 @@
+CLASS Uk ClientAuthenticationResultsMessage
+	FIELD bPG resultCode B
+	FIELD bPH newClientId I
+	METHOD agF isSuccessful ()Z
+	METHOD agG getClientId ()I
+	METHOD an getErrorCode ()B

@@ -1,0 +1,3 @@
+CLASS JG Poolable
+	METHOD b onCheckOut ()V
+	METHOD j onCheckIn ()V

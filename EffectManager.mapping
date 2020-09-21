@@ -1,0 +1,3 @@
+CLASS aDg EffectManager
+	METHOD aPh getInstance ()LaDg;
+	METHOD kS getEffect (Ljava/lang/String;)LaCQ;

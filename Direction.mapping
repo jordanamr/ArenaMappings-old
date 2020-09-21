@@ -1,0 +1,3 @@
+CLASS Ye Direction
+	METHOD acJ getVector ()[I
+	METHOD getIndex ()I

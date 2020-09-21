@@ -1,0 +1,2 @@
+CLASS mU DofusArenaConfiguration
+	METHOD rM getInstance ()LmU;

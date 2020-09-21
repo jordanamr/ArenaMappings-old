@@ -1,0 +1,3 @@
+CLASS Tj OpponentSearchCancelResultMessage
+	FIELD aV errorCode B
+	METHOD an getErrorCode ()B

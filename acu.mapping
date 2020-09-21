@@ -1,0 +1,3 @@
+CLASS acu
+	METHOD isRunning ()Z
+	METHOD start ()V

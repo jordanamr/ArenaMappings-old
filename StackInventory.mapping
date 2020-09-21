@@ -1,0 +1,10 @@
+CLASS ajv StackInventory
+	FIELD cAy contents Ljava/util/HashMap;
+	FIELD cAz ordered Z
+	FIELD oi contentProvider LUt;
+	FIELD ok serializeQuantity Z
+	METHOD <init> (SLUt;Lzc;ZZZ)V
+		ARG 2 provider
+		ARG 4 ordered
+		ARG 6 serializeQuantity
+	METHOD hq getProvider ()LUt;

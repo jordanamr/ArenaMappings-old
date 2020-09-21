@@ -1,0 +1,3 @@
+CLASS ahm IgnoreRemovedMessage
+	FIELD bak ignoreName Ljava/lang/String;
+	METHOD nn getIgnoreName ()Ljava/lang/String;

@@ -1,0 +1,13 @@
+CLASS aCl ObjectPool
+	METHOD a setFactory (LSq;)V
+		ARG 1 factory
+	METHOD adr borrowObject ()Ljava/lang/Object;
+	METHOD ads addObject ()V
+	METHOD af returnObject (Ljava/lang/Object;)V
+		ARG 1 object
+	METHOD ag invalidateObject (Ljava/lang/Object;)V
+		ARG 1 object
+	METHOD clear ()V
+	METHOD close ()V
+	METHOD jx getNumIdle ()I
+	METHOD jy getNumActive ()I

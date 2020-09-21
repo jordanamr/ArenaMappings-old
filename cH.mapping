@@ -1,0 +1,2 @@
+CLASS cH
+	METHOD a getString (II[Ljava/lang/Object;)Ljava/lang/String;

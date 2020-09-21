@@ -1,0 +1,4 @@
+CLASS acy GrowingArray
+	METHOD add (Ljava/lang/Object;)V
+	METHOD add ([Ljava/lang/Object;)V
+	METHOD iterator ()Ljava/util/Iterator;

@@ -1,0 +1,3 @@
+CLASS aMC TeamMateSetReadyForActionMessage
+	FIELD sB coachId J
+	METHOD mb coachId ()J

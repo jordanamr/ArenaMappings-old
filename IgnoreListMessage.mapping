@@ -1,0 +1,4 @@
+CLASS aBh IgnoreListMessage
+	FIELD drb ignoreList Ljava/util/ArrayList;
+	METHOD aNe getIgnoreList ()Ljava/util/ArrayList;
+	METHOD main ([Ljava/lang/String;)V

@@ -1,0 +1,7 @@
+CLASS aho FieldProvider
+	METHOD a setFieldValue (Ljava/lang/String;Ljava/lang/Object;)V
+	METHOD b appendFieldValue (Ljava/lang/String;Ljava/lang/Object;)V
+	METHOD c prependFieldValue (Ljava/lang/String;Ljava/lang/Object;)V
+	METHOD getFieldValue (Ljava/lang/String;)Ljava/lang/Object;
+	METHOD getFields ()[Ljava/lang/String;
+	METHOD l isFieldSynchronisable (Ljava/lang/String;)Z

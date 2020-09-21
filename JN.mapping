@@ -1,0 +1,6 @@
+CLASS JN
+	FIELD a log Lorg/apache/log4j/Logger;
+	METHOD getConnection ()Ljava/sql/Connection;
+	METHOD isRunning ()Z
+	METHOD run ()V
+	METHOD start ()V

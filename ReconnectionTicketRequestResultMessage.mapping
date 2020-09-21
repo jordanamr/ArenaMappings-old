@@ -1,0 +1,3 @@
+CLASS nu ReconnectionTicketRequestResultMessage
+	FIELD Oy success Z
+	METHOD ss isSuccess ()Z
